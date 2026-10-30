@@ -1,0 +1,44 @@
+{
+  "productos": [
+    {
+      "codigo": "PRU-001",
+      "nombre": "Portátil de pruebas",
+      "precio": 799.99,
+      "stock": 5,
+      "categoriaId": 1,
+      "proveedorId": 1
+    },
+    {
+      "codigo": "PRU-002",
+      "nombre": "Monitor de pruebas",
+      "precio": 189.5,
+      "stock": 12,
+      "categoriaId": 2,
+      "proveedorId": 2
+    },
+    {
+      "codigo": "PRU-003",
+      "nombre": "Teclado mecánico",
+      "precio": 59.9,
+      "stock": 20,
+      "categoriaId": 1,
+      "proveedorId": 1
+    },
+    {
+      "codigo": "PRU-004",
+      "nombre": "Ratón inalámbrico",
+      "precio": 24.95,
+      "stock": 0,
+      "categoriaId": 3,
+      "proveedorId": 2
+    },
+    {
+      "codigo": "PRU-005",
+      "nombre": "Disco SSD externo",
+      "precio": 89.0,
+      "stock": 8,
+      "categoriaId": 2,
+      "proveedorId": 3
+    }
+  ]
+}

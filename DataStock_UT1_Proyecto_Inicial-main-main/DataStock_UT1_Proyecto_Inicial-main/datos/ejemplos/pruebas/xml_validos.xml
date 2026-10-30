@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+  <producto>
+    <codigo>PRU-001</codigo>
+    <nombre>Portátil de pruebas</nombre>
+    <precio>799.99</precio>
+    <stock>5</stock>
+    <categoriaId>1</categoriaId>
+    <proveedorId>1</proveedorId>
+  </producto>
+  <producto>
+    <codigo>PRU-002</codigo>
+    <nombre>Monitor de pruebas</nombre>
+    <precio>189.5</precio>
+    <stock>12</stock>
+    <categoriaId>2</categoriaId>
+    <proveedorId>2</proveedorId>
+  </producto>
+  <producto>
+    <codigo>PRU-003</codigo>
+    <nombre>Teclado mecánico</nombre>
+    <precio>59.9</precio>
+    <stock>20</stock>
+    <categoriaId>1</categoriaId>
+    <proveedorId>1</proveedorId>
+  </producto>
+  <producto>
+    <codigo>PRU-004</codigo>
+    <nombre>Ratón inalámbrico</nombre>
+    <precio>24.95</precio>
+    <stock>0</stock>
+    <categoriaId>3</categoriaId>
+    <proveedorId>2</proveedorId>
+  </producto>
+  <producto>
+    <codigo>PRU-005</codigo>
+    <nombre>Disco SSD externo</nombre>
+    <precio>89.0</precio>
+    <stock>8</stock>
+    <categoriaId>2</categoriaId>
+    <proveedorId>3</proveedorId>
+  </producto>
+</catalogo>

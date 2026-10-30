@@ -1,0 +1,45 @@
+PRUEBAS DE IMPORTACIÓN JSON Y XML – DATASTOCK
+
+Orden recomendado
+1. Inicia el programa con el inventario vacío.
+2. Importa json_validos.json. Deben incorporarse 5 productos.
+3. Importa xml_validos.xml. Deben incorporarse otros 5 productos.
+4. Para probar duplicados, importa de nuevo los ficheros válidos o importa
+   json_registros_con_errores.json / xml_registros_con_errores.xml con los
+   códigos PRU-001 y PRU-002 ya presentes.
+5. Prueba por separado los ficheros malformados y de estructura incorrecta.
+   Un documento mal formado o con estructura general incorrecta no debe
+   modificar el inventario.
+
+FICHEROS
+- json_validos.json: cinco productos correctos; incluye stock 0 y decimales.
+- json_registros_con_errores.json: código vacío, código demasiado largo,
+  nombre demasiado corto, precio cero/negativo, stock negativo, IDs no
+  positivos y códigos duplicados (exacto y cambiando mayúsculas).
+- json_malformado.json: sintaxis JSON rota intencionadamente.
+- json_estructura_incorrecta.json: falta la propiedad raíz "productos".
+- xml_validos.xml: cinco productos correctos; mismos casos normales que JSON.
+- xml_registros_con_errores.xml: mismos errores de datos que el JSON.
+- xml_malformado.xml: etiquetas XML sin cerrar.
+- xml_estructura_incorrecta.xml: raíz distinta de "catalogo".
+
+REGLAS DE REFERENCIA
+Según el README del proyecto, los campos son codigo, nombre, precio, stock,
+categoriaId y proveedorId. El código es obligatorio y admite hasta 12
+caracteres; el nombre debe tener entre 3 y 100 caracteres; el precio debe ser
+mayor que cero; el stock no puede ser negativo; categoría y proveedor deben
+ser enteros positivos. Los códigos no se pueden duplicar, sin distinguir
+mayúsculas/minúsculas.
+
+IMPORTANTE
+Los ficheros de registros con errores mezclan casos válidos e inválidos para
+comprobar que se importan los correctos y se rechazan los incorrectos.
+Los duplicados solo se detectan si el código ya está en el inventario o si
+el importador controla duplicados dentro del propio fichero. Por eso conviene
+cargar primero json_validos.json y xml_validos.xml.
+
+NOTA SOBRE LA IMPLEMENTACIÓN
+Estos ficheros describen pruebas funcionales conforme a las reglas del
+proyecto. Si alguna prueba no produce el resultado esperado, puede revelar
+una validación pendiente o un defecto del importador; no significa que el
+fichero de prueba esté mal.

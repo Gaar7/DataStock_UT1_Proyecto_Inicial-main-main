@@ -1,0 +1,4 @@
+{
+  "productos": [
+    {"codigo": "ERR-001", "nombre": "JSON sin cerrar", "precio": 10.0
+  ]

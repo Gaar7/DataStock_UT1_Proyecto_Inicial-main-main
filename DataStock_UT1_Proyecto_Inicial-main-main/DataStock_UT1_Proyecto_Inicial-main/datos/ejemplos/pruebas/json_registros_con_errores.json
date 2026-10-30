@@ -1,0 +1,84 @@
+{
+  "productos": [
+    {
+      "codigo": "",
+      "nombre": "Código vacío",
+      "precio": 10.0,
+      "stock": 1,
+      "categoriaId": 1,
+      "proveedorId": 1
+    },
+    {
+      "codigo": "CODIGO-DEMASIADO-LARGO",
+      "nombre": "Código largo",
+      "precio": 10.0,
+      "stock": 1,
+      "categoriaId": 1,
+      "proveedorId": 1
+    },
+    {
+      "codigo": "PRU-101",
+      "nombre": "AB",
+      "precio": 10.0,
+      "stock": 1,
+      "categoriaId": 1,
+      "proveedorId": 1
+    },
+    {
+      "codigo": "PRU-102",
+      "nombre": "Precio cero",
+      "precio": 0,
+      "stock": 1,
+      "categoriaId": 1,
+      "proveedorId": 1
+    },
+    {
+      "codigo": "PRU-103",
+      "nombre": "Precio negativo",
+      "precio": -1.5,
+      "stock": 1,
+      "categoriaId": 1,
+      "proveedorId": 1
+    },
+    {
+      "codigo": "PRU-104",
+      "nombre": "Stock negativo",
+      "precio": 10.0,
+      "stock": -2,
+      "categoriaId": 1,
+      "proveedorId": 1
+    },
+    {
+      "codigo": "PRU-105",
+      "nombre": "Categoría no positiva",
+      "precio": 10.0,
+      "stock": 1,
+      "categoriaId": 0,
+      "proveedorId": 1
+    },
+    {
+      "codigo": "PRU-106",
+      "nombre": "Proveedor no positivo",
+      "precio": 10.0,
+      "stock": 1,
+      "categoriaId": 1,
+      "proveedorId": -1
+    },
+    {
+      "codigo": "PRU-001",
+      "nombre": "Código duplicado exacto",
+      "precio": 15.0,
+      "stock": 2,
+      "categoriaId": 1,
+      "proveedorId": 1
+    },
+    {
+      "codigo": "pru-002",
+      "nombre": "Código duplicado con minúsculas",
+      "precio": 15.0,
+      "stock": 2,
+      "categoriaId": 1,
+      "proveedorId": 1
+    }
+  ]
+}

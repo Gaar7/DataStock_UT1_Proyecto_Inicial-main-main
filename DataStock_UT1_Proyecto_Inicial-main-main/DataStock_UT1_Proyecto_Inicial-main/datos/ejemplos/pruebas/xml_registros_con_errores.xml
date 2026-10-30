@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+  <producto>
+    <codigo></codigo>
+    <nombre>Código vacío</nombre>
+    <precio>10.0</precio>
+    <stock>1</stock>
+    <categoriaId>1</categoriaId>
+    <proveedorId>1</proveedorId>
+  </producto>
+  <producto>
+    <codigo>CODIGO-DEMASIADO-LARGO</codigo>
+    <nombre>Código largo</nombre>
+    <precio>10.0</precio>
+    <stock>1</stock>
+    <categoriaId>1</categoriaId>
+    <proveedorId>1</proveedorId>
+  </producto>
+  <producto>
+    <codigo>PRU-101</codigo>
+    <nombre>AB</nombre>
+    <precio>10.0</precio>
+    <stock>1</stock>
+    <categoriaId>1</categoriaId>
+    <proveedorId>1</proveedorId>
+  </producto>
+  <producto>
+    <codigo>PRU-102</codigo>
+    <nombre>Precio cero</nombre>
+    <precio>0</precio>
+    <stock>1</stock>
+    <categoriaId>1</categoriaId>
+    <proveedorId>1</proveedorId>
+  </producto>
+  <producto>
+    <codigo>PRU-103</codigo>
+    <nombre>Precio negativo</nombre>
+    <precio>-1.5</precio>
+    <stock>1</stock>
+    <categoriaId>1</categoriaId>
+    <proveedorId>1</proveedorId>
+  </producto>
+  <producto>
+    <codigo>PRU-104</codigo>
+    <nombre>Stock negativo</nombre>
+    <precio>10.0</precio>
+    <stock>-2</stock>
+    <categoriaId>1</categoriaId>
+    <proveedorId>1</proveedorId>
+  </producto>
+  <producto>
+    <codigo>PRU-105</codigo>
+    <nombre>Categoría no positiva</nombre>
+    <precio>10.0</precio>
+    <stock>1</stock>
+    <categoriaId>0</categoriaId>
+    <proveedorId>1</proveedorId>
+  </producto>
+  <producto>
+    <codigo>PRU-106</codigo>
+    <nombre>Proveedor no positivo</nombre>
+    <precio>10.0</precio>
+    <stock>1</stock>
+    <categoriaId>1</categoriaId>
+    <proveedorId>-1</proveedorId>
+  </producto>
+  <producto>
+    <codigo>PRU-001</codigo>
+    <nombre>Código duplicado exacto</nombre>
+    <precio>15.0</precio>
+    <stock>2</stock>
+    <categoriaId>1</categoriaId>
+    <proveedorId>1</proveedorId>
+  </producto>
+  <producto>
+    <codigo>pru-002</codigo>
+    <nombre>Código duplicado con minúsculas</nombre>
+    <precio>15.0</precio>
+    <stock>2</stock>
+    <categoriaId>1</categoriaId>
+    <proveedorId>1</proveedorId>
+  </producto>
+</catalogo>
